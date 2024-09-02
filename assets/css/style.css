@@ -46,26 +46,11 @@
 .search-bar{
   display: flex;
   align-items: center;
-  border: 1px solid lighgrey;
+  border: 1px solid lightgrey;
   border-radius: 50px;
   height: 40px;
 
 }
-
-.search-bar button{
-  width: 34px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px; 
-  border: none;
-  height: 39px;
-}
-
-.mic-icon{
-  background-color: #f1f1f1;
-  padding: 8px;
-  border-radius: 50px;
-}
-
 
 .search-bar input{
   width: 491px;
@@ -76,6 +61,30 @@
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px; 
 }
+
+.search-bar button{
+  width: 64px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px; 
+  border: none;
+  height: 39px;
+}
+
+.search-bar button:hover{
+  background-color: #e8e6e6;
+  cursor: pointer;
+}
+
+.search-bar > button > span:hover{
+  background-color: #e8e6e6;
+}
+
+.mic-icon{
+  background-color: #f1f1f1;
+  padding: 8px;
+  border-radius: 50px;
+}
+
 
 .logo-section{
   display: flex;
@@ -94,6 +103,7 @@
 
 .content{
   display: flex;
+  width: 100%;
 }
 
 .sidebar{ 
@@ -179,7 +189,7 @@
   overflow-y: scroll;
 }
 
-.videos-grid{
+.video-grid{
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
